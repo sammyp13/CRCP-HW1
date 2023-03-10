@@ -8,20 +8,31 @@
 
 <body>
     <h1> Pokémon Card Store </h1>
+
     <div class="inventory">
         <h2> Inventory </h2>
-        <div class="inventoryContent">
-            <a href="umbreon.html">
-                <img src="https://product-images.tcgplayer.com/fit-in/398x398/246723.jpg" alt="Umbreon VMAX">
-                <p>Umbreon VMAX</p>
-            </a>
-        </div>
-        <div class="inventoryContent">
-            <a href="pikachu.html">
-                <img src="https://product-images.tcgplayer.com/fit-in/360x360/90784.jpg" alt="Bday Pikachu">
-                <p>Birthday Pikahcu</p>
-            </a>
-        </div>
+        <ul>
+            <li class="inventoryContent">
+                <a href="umbreon.html">
+                    <img src="https://product-images.tcgplayer.com/fit-in/398x398/246723.jpg" alt="Umbreon VMAX">
+                    <p><strong>Umbreon VMAX</strong></p>
+                </a>
+            </li>
+            <li class="inventoryContent">
+                <a href="pikachu.html">
+                    <img src="https://product-images.tcgplayer.com/fit-in/360x360/90784.jpg" alt="Bday Pikachu">
+                    <p><strong>Birthday Pikahcu</strong></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class = "requestForm">
+        <form>
+            <label for="request">See any card you like? Place a request!</label>
+            <input type= "text" id ="request">
+            <button type="button">Submit</button>
+        </form>
     </div>
 </body>
 
