@@ -1,11 +1,14 @@
 html{
-    font: Veranda;
+    font: "Veranda";
+    padding: 10px;
 }
 
 body {
     margin: 50px;
     padding: 5px;
 }
+
+li
 
 img.inventoryContent{
     width:500px;
