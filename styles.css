@@ -1,14 +1,17 @@
-html{
+p, h1, h2{
     font: "Veranda";
-    padding: 10px;
+}
+
+.price{
+    color: blue;
 }
 
 body {
-    margin: 50px;
+    margin: auto;
     padding: 5px;
 }
 
-ul{
+ul, li{
     list-style-type: none;
     display: inline;
 }
