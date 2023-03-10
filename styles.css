@@ -8,7 +8,10 @@ body {
     padding: 5px;
 }
 
-li
+ul{
+    list-style-type: none;
+    display: inline;
+}
 
 img.inventoryContent{
     width:500px;
