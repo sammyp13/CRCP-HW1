@@ -24,3 +24,8 @@ img.inventoryContent{
 form{
     padding-top: 10px;
 }
+
+img.otherProducts{
+    width:100px;
+    height:200px;
+}
