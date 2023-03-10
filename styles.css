@@ -1,5 +1,5 @@
 p, h1, h2{
-    font: "Veranda";
+    font-family: "Verdana", sans-serif;
 }
 
 .price{
@@ -11,7 +11,7 @@ body {
     padding: 5px;
 }
 
-ul, li{
+#inventoryContent{
     list-style-type: none;
     display: inline;
 }
